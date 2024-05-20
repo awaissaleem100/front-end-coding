@@ -1,0 +1,16 @@
+#side-nav{
+    background-color: aquamarine;
+    color : white;
+    width:200px;
+    height : 100vh;
+    position:fixed;
+    margin:0;
+    left:0;
+    right:0;
+}
+#side-nav h3{
+    margin : 0;
+}
+#container-fluid{
+    margin-left: 200px;
+}

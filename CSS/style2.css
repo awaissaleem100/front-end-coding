@@ -1,0 +1,86 @@
+#first-p{
+    display: inline;
+}
+body{
+    margin:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#first-a{
+    width:100px;
+    height:200px;
+    background-color: crimson;
+    display:inline-block;
+}
+#youtube-a{
+    display:none;
+}
+#container{
+    background-color: aquamarine;
+    width:100%;
+    
+    margin-top: 30px;
+    display:flex;
+    flex-direction:row;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items:center;
+    justify-content: space-evenly;
+    
+}
+.div-custom-1{
+    background-color: blueviolet;
+    width:300px;
+    height:300px;
+    /* flex-grow: 2; */
+
+}
+.div-custom-2{
+    background-color: rgb(128, 226, 43);
+    width:300px;
+    margin-left: 20px;
+    height:200px;
+}
+#navbar{
+    background-color: blueviolet;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+#navbar li{
+    display: inline;
+    margin-right: 20px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color:white;
+}
+#grid-container{
+    background-color: aqua;
+    width:100%;
+    display:grid;
+    grid-template-columns: 20% 30% 40%;
+    margin-top: 20px;
+    grid-template-rows: 100px 200px 300px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    
+}
+.grid-item-1{
+    background-color: rgb(119, 226, 43);
+}
+.grid-item-2{
+    background-color: brown;
+}
+#grid-4{
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+#grid-4:hover{
+    background-color:blue ;
+}
+.active{
+    border-bottom: 2px solid black;
+}
+#navbar li:hover{
+    border-bottom: 2px solid black;
+}

@@ -1,0 +1,38 @@
+h1{
+    background-color:orange;
+    color:grey;
+    font-family: Verdana,sans-serif;   
+}
+p{
+    background-color: yellow;
+    color:black;
+    font-family: "Gill Sans",sans-serif;
+}
+mark{
+    background-color: brown;
+}
+.first-h{
+    background-color: blue;
+    color:orange;
+    font-family: Verdana,sans-serif;
+}
+#first-p{
+    background-color: black;
+    color:chartreuse;
+    font-family: "Gill Sans",sans-serif;
+    text-align: none;
+    text-decoration: none;
+}
+#link-a{
+    text-decoration: none;
+    font-size:20px;
+    color:orange;
+    font-weight: bolder;
+    font-style: italic;
+}
+#second-p{
+    text-transform:lowercase;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    line-height: 1.5;
+}

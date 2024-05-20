@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position Property</title>
+    <style>
+        body{
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        p{
+            border : 2px solid crimson;
+            padding: 4px 8px;
+        }
+        #div-1{
+            width:50vw;
+            height:30vh;
+            background-color: blueviolet;
+            position:relative;
+        }
+        #div-2{
+            width:30vw;
+            height:20vh;
+            background-color: orange;
+            position: relative;
+            bottom:35px;
+            z-index:-100 ;
+        }
+        a{
+            background-color: blueviolet;
+            padding : 8px 10px;
+            position : fixed;
+            bottom: 30px;
+            : 20px;
+
+        }
+        #div-3{
+            height:300vh;
+        }
+        #div-1-child{
+            background-color: pink;
+            width:50px;
+            height:50px;
+            position:absolute;
+            bottom:0;
+            left:20;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cascading Style Sheet</h1>
+    <p id="p1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias optio aliquam dolor a aut culpa exercitationem cum nemo nam, inventore vero? Esse non sint alias, eos et officia corporis vitae, accusantium veritatis autem perferendis expedita mollitia, libero nobis! Eaque, aliquid?</p>
+    <div id="div-1">
+        <div id="div-1-child"></div>
+    <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni dolorem nam odio quidem, sit iusto ullam iste cumque quam velit quo facere molestiae adipisci reprehenderit veritatis vel laboriosam eaque praesentium.</div>
+    </div>
+    <div id="div-2">This is our second div</div>
+    <a href="#p1">&#8593</a>
+    <div id="div-3">This is our third div</div>
+    
+</body>
+</html>
