@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+   <style>
+     button{
+        background-color: tomato;
+        border : 1px solid gray;
+        padding : 10px 15px;
+         color : black;
+         border-radius: 10px;
+         transition:background-color 1s,;
+     }
+#btn-1:hover{
+    background-color: blueviolet;
+    color : white;
+}
+#div-1{
+    background-color: chocolate;
+    width : 100px;
+    height : 100px;
+    margin-top: 20px;
+    transition : background-color 1s,width 1s,height 1s;
+}
+#div-1:hover{
+    background-color: cadetblue;
+    width : 200px;
+    height : 200px;
+}
+#div-2{
+    background-color: fuchsia;
+    width : 250px;
+    height : 250px;
+    margin-top: 20px;
+    animation : div-2-animation 4s infinite;
+}
+
+@keyframes div-2-animation {
+   0% {
+    background-color: fuchsia;
+   }    
+   50%{
+    background-color: burlywood;
+   }
+   100%{
+    background-color: fuchsia;
+   }
+}
+   </style>
+</head>
+<body>
+    <h1 class="animate__animated animate__flip"> This is heading</h1>
+    <button id="btn-1">Log in</button>
+    <div id="div-1"></div>
+    <div id="div-2"></div>
+
+</body>
+</html>
